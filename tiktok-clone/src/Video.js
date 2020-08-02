@@ -20,13 +20,7 @@ function Video({ url, channel, description, song, likes, messages, shares }) {
   };
   return (
     <div className="video">
-      <video
-        className="video__player"
-        ref={videoRef}
-        loop
-        src={url}
-        onClick={onVideoPress}
-      ></video>
+      <video className="video__player" src={url} ref={videoRef} loop onClick={onVideoPress}></video>
       <VideoFooter channel={channel} description={description} song={song} />
       <VideoSidebar likes={likes} messages={messages} shares={shares} />
     </div>
