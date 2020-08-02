@@ -1,8 +1,15 @@
 .video {
   position: relative;
-  border: 1px solid white;
-  background-color: white;
+  /* border: 1px solid white; */
+  background-color: red;
   width: 100%;
   height: 100%;
   scroll-snap-align: start;
+}
+
+
+.video__player{
+   object-fit: fill;  /* stretch the video */
+   width: 100%;
+   height: 100%;
 }

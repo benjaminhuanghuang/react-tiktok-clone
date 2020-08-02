@@ -5,11 +5,15 @@ html {
 
 
 .app {
+  height: 100vh;  /**/
   background-color: black;
+  display: grid;
+  place-items: center;
 }
 
 .app__videos {
   position: relative;
+  border-radius: 20px;
   height: 800px;
   max-width: 500px;
   width: 80%;

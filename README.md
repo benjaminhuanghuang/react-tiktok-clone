@@ -17,3 +17,16 @@ install sdk
 ```
   npm i firebase -S
 ```
+
+
+3. Handle the scroll
+
+
+4. Video player
+useRef
+
+
+5. Scroll ticker
+```
+  npm i react-ticker -S
+```
