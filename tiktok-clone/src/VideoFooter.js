@@ -5,7 +5,7 @@ import Ticker from "react-ticker";
 
 import "./VideoFooter.css";
 
-function VideoFooter() {
+function VideoFooter({channel, description, song}) {
   return (
     <div className="videoFooter">
       <div className="videoFooter__text">

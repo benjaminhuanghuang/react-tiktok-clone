@@ -3,7 +3,6 @@ import React, { useState, useRef } from "react";
 import VideoFooter from "./VideoFooter";
 import VideoSidebar from "./VideoSidebar";
 
-
 import "./Video.css";
 
 function Video() {
@@ -21,9 +20,15 @@ function Video() {
   };
   return (
     <div className="video">
-      <video className="video__player" ref={videoRef} loop="" src="https://www.youtube.com/watch?v=zOWJqNPeifU" onClick={onVideoPress}></video>
-      <VideoFooter/>
-      <VideoSidebar/>
+      <video
+        className="video__player"
+        ref={videoRef}
+        loop=""
+        src="https://www.youtube.com/watch?v=zOWJqNPeifU"
+        onClick={onVideoPress}
+      ></video>
+      <VideoFooter channel="channel..." description="description...." song="song....." />
+      <VideoSidebar />
     </div>
   );
 }
