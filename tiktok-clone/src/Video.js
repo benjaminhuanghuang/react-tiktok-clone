@@ -28,7 +28,7 @@ function Video() {
         onClick={onVideoPress}
       ></video>
       <VideoFooter channel="channel..." description="description...." song="song....." />
-      <VideoSidebar />
+      <VideoSidebar likes={111} shares={222} messages={333} />
     </div>
   );
 }
