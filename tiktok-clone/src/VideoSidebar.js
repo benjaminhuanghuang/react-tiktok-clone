@@ -25,7 +25,7 @@ function VideoSidebar({ likes, shares, messages }) {
         <p>{messages}</p>
       </div>
       <div className="videoSidebar_button">
-        <ShareIcon />
+        <ShareIcon /> 
         <p>{shares}</p>
       </div>
     </div>

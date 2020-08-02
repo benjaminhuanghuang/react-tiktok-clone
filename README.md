@@ -1,6 +1,6 @@
 # Let's Build a Tik Tok Clone with REACT JS for Beginners
 - https://www.youtube.com/watch?v=GePLvNgWROg
-
+- https://github.com/CleverProgrammers/tiktok-clone
 
 
 ## Steps
